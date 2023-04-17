@@ -35,4 +35,4 @@ def handle_book(book_id):
                 "title": book.title, 
                 "description": book.description,
             }
-    return{"message":f"Book {book_id} not found"}, 404
+    return{"message":f"Book {book_id} is not found"}, 404
